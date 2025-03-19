@@ -1,0 +1,7 @@
+python-dotenv==1.0.1
+python-telegram-bot==22.0
+langchain-huggingface==0.1.2
+langchain-community==0.3.20
+faiss-cpu==1.10.0
+FlagEmbedding==1.3.4
+markitdown==0.0.2

@@ -1,0 +1,127 @@
+{
+    "welcome": {
+        "en": "Hello, I’m your bot helper and can respond to questions about documents.\nUpload a file, and I’ll add its details to your knowledge base. You can then ask about its contents anytime.\n\nUse the command /sources to view saved documents.\n\nYou can change communication language by calling /set_lang command.",
+        "de": "Hallo, ich bin dein Bot-Assistent und kann Fragen zu Dokumenten beantworten.\nLade eine Datei hoch, ich füge die Infos in deine Wissensdatenbank ein, und du kannst jederzeit Fragen dazu stellen.\n\nMit /sources siehst du die gespeicherten Dateien.\n\nDu kannst die Kommunikationssprache ändern, indem du den Befehl /set_lang aufrufst.",
+        "ru": "Привет, я твой бот-помощник и могу ответить на вопросы по документам.\nЗагрузи файл, я добавлю его данные в базу знаний, и ты сможешь спрашивать о содержимом когда угодно.\n\nКоманда /sources покажет список сохранённых файлов.\n\nТы можешь изменить язык общения, вызвав команду /set_lang."
+    },
+    "choose_lang": {
+        "en": "Choose one of the suggested languages for communication:",
+        "de": "Wähle eine der vorgeschlagenen Sprachen zur Kommunikation:",
+        "ru": "Выбери один из предложенных языков общения:"
+    },
+    "lang_is_set": {
+        "en": "Starting now, the default language is set to {lang}. You can choose a different language using the /set_lang command.",
+        "de": "Ab jetzt ist die Standardsprache auf {lang} eingestellt. Du kannst eine andere Sprache mit dem Befehl /set_lang auswählen.",
+        "ru": "С этого момента язык по умолчанию — {lang}. Ты можешь выбрать другой язык, вызвав команду /set_lang."
+    },
+    "access_denied": {
+        "en": "You don’t have permission to use this bot.",
+        "de": "Du hast keinen Zugriff auf diesen Bot.",
+        "ru": "У тебя нет доступа к этому боту."
+    },
+    "unsupported_file_type": {
+        "en": "I can only work with files containing text (e.g. .txt, .docx, .pdf, .xlsx, etc.).",
+        "de": "Ich kann nur mit Dateien arbeiten, die Text enthalten (z.B. .txt, .docx, .pdf, .xlsx, etc.).",
+        "ru": "Я могу работать только с файлами, содержащими текст (например, .txt, .docx, .pdf, .xlsx и т.д.)."
+    },
+    "not_authorized": {
+        "en": "You don’t have permission to use this command.",
+        "de": "Du hast keine Berechtigung, diesen Befehl zu nutzen.",
+        "ru": "У тебя нет прав для использования этой команды."
+    },
+    "sources": {
+        "en": "Here’s your list of resources:",
+        "de": "Dies ist deine Ressourcenliste:",
+        "ru": "Вот твой список ресурсов:"
+    },
+    "deleted_doc": {
+        "en": "Removed document: {deleted_doc}",
+        "de": "Gelöschtes Dokument: {deleted_doc}",
+        "ru": "Удалённый документ: {deleted_doc}"
+    },
+    "proc_file": {
+        "en": "Analyzing the file’s content. This might take a few minutes for large files.",
+        "de": "Verarbeite den Inhalt der Datei. Bei großen Dateien kann das einige Minuten dauern.",
+        "ru": "Анализирую содержимое файла. Для больших файлов это может занять пару минут."
+    },
+    "proc_file_ok": {
+        "en": "The file {file_name} has been processed and is ready for your questions.",
+        "de": "Die Datei {file_name} wurde verarbeitet und ist für deinen Fragen bereit.",
+        "ru": "Файл {file_name} обработан и готов к твоим вопросам."
+    },
+    "proc_file_fail": {
+        "en": "No text found in the file {file_name}.",
+        "de": "Kein Text in der Datei {file_name} gefunden.",
+        "ru": "Текст в файле {file_name} не обнаружен."
+    },
+    "proc_request": {
+        "en": "Handling your request.",
+        "de": "Bearbeite deine Anfrage.",
+        "ru": "Обрабатываю твой запрос."
+    },
+    "add_user": {
+        "en": "Use `/add_user username` to proceed.",
+        "de": "Verwende `/add_user username`, um fortzufahren.",
+        "ru": "Воспользуйся командой `/add_user username`."
+    },
+    "add_admin": {
+        "en": "Use `/add_admin username` to proceed.",
+        "de": "Verwende `/add_admin username`, um fortzufahren.",
+        "ru": "Воспользуйся командой `/add_admin username`."
+    },
+    "user_added": {
+        "en": "User {username} has been added to the allowed list.",
+        "de": "Mitglied {username} wurde zur Freigabeliste hinzugefügt.",
+        "ru": "Пользователь {username} добавлен в белый список."
+    },
+    "user_exists": {
+        "en": "User {username} is already on the allowed list.",
+        "ru": "Пользователь {username} уже находится в списке.",
+        "de": "Mitglied {username} ist bereits auf der Freigabeliste."
+    },
+    "show_users": {
+        "en": "Here’s the current list of users:\n\n{users}",
+        "de": "Dies ist die aktuelle Liste der Mitglieder:\n\n{users}",
+        "ru": "Вот актуальный список пользователей:\n\n{users}"
+    },
+    "specify_username": {
+        "en": "Please provide the username to remove.",
+        "de": "Bitte gib den Benutzernamen an, der entfernt werden soll.",
+        "ru": "Укажи имя пользователя для удаления."
+    },
+    "user_removed": {
+        "en": "User {username} was removed from the allowed list.",
+        "de": "Mitglied {username} wurde aus der Freigabeliste entfernt.",
+        "ru": "Пользователь {username} удалён из списка."
+    },
+    "user_not_found": {
+        "en": "User {username} isn’t on the allowed list.",
+        "de": "Mitglied {username} befindet sich nicht auf der Freigabeliste.",
+        "ru": "Пользователя {username} нет в списке."
+    },
+    "cancel": {
+        "en": "Action canceled. Use /start to start over.",
+        "de": "Vorgang abgebrochen. Nutze /start, um neu zu starten.",
+        "ru": "Действие отменено. Используй /start, чтобы начать заново."
+    },
+    "wrong_formatting": {
+        "en": "Couldn’t format the message, here’s the raw text:\n",
+        "de": "Formatierung fehlgeschlagen, hier ist der Roh-Text:\n",
+        "ru": "Не удалось отформатировать сообщение, вот исходный текст:\n"
+    },
+    "error": {
+        "en": "Something went wrong while handling your request. Error details: {error}",
+        "de": "Ein Fehler ist bei der Bearbeitung deiner Anfrage aufgetreten. Fehlerdetails: {error}",
+        "ru": "Произошла ошибка при обработке запроса. Подробности: {error}"
+    },
+    "file_failed": {
+        "en": "Couldn’t process the file: {e}.",
+        "de": "Datei konnte nicht verarbeitet werden: {e}.",
+        "ru": "Не получилось обработать файл: {e}."
+    },
+    "empty": {
+        "en": "Your resource list is empty.",
+        "de": "Deine Ressourcenliste ist leer.",
+        "ru": "Твой список ресурсов пуст."
+    }
+}
