@@ -39,8 +39,8 @@ I uploaded a [menu of Augustiner](https://augustiner-erfurt.de/wp-content/upload
 
 **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/SmartReaderBot.git
-   cd SmartReaderBot
+   git clone https://github.com/trofimovaolga/Smart-Reader-Bot.git
+   cd Smart-Reader-Bot
    ```
 
 **Install dependencies**:
